@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Pixelify+Sans:wght@400;600&family=Teko:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Balsamic Sans';
+}
+
+h1 {
+    text-shadow: #40f58b;
+    font-size: 60px; color: #f54040;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-shadow: 4px 4px 4px  rgb(0, 0, 0);
+}
+
+header {
+    text-align: center; 
+    color: #4640f5;
+    background: #40f597;
+    padding: 10px 0;
+}
+ 
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/geography-geology-education-subject-handwriting-doodle-icon-earth-exploration-map-design-sign-symbol-isolated-icons-set-236013226.jpg);
+ }
+
+ .container { 
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid #f540b3;
+    background-color: wheat;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px darkgreen;
+    margin-bottom: 3px;
+}
+
+label:hover {
+    background: #f54040;
+}
+
+
+button {
+    width: 80;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background: #000;
+    color:#ffffffe6;
+}
+
+h2  {
+    font-size: 20px;
+    text-align: center;
+    border-color: #f54040;
+    background-color: aquamarine;
+}
+
+#resultado{ 
+    border:#f540b3;
+    font-size: 30px;
+    color:#f54040;
+}

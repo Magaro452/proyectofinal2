@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+   <header>
+      <h1>JUEGO DE TRIVIA</h1>
+      <h2><p>¿CUÁNTO SABÉS DE TANDIL?</p></h2>
+   </header>
+   <div class="container">
+      <section id="p0">
+        <h3>1 - ¿En qué provincia se encuentra ubicada Tandil?</h3>
+        <label>
+            <input type="radio" value="1"  name="p0" onclick="respuesta(0,this)"> Santa Fe      
+        </label>
+        <label>
+            <input type="radio" value="2"  name="p0" onclick="respuesta(0,this)"> La Pampa      
+        </label>
+        <label>
+            <input type="radio" value="3"  name="p0" onclick="respuesta(0,this)"> Buenos Aires      
+        </label>
+      </section>
+        
+      <section id="p1">
+        <h3>2 - ¿A qué sistema pertenecen las Sierras de Tandil?</h3>
+        <label>
+            <input type="radio" value="1"  name="p1" onclick="respuesta(1,this)"> Sierras Pampeanas      
+        </label>
+        <label>
+            <input type="radio" value="2"  name="p1" onclick="respuesta(1,this)"> Sistema de Tandilia      
+        </label>
+        <label>
+            <input type="radio" value="3"  name="p1" onclick="respuesta(1,this)"> Sistema de Ventania     
+        </label>
+      </section>
+        
+     <section id="p2">
+        <h3>3 - ¿En qué año se fundó Tandil?</h3>
+        <label>
+            <input type="radio" value="1"  name="p2" onclick="respuesta(2,this)"> 1813      
+        </label>
+        <label>
+            <input type="radio" value="2"  name="p2" onclick="respuesta(2,this)"> 1823      
+        </label>
+        <label>
+            <input type="radio" value="3"  name="p2" onclick="respuesta(2,this)"> 1833     
+        </label>
+     </section>
+        
+     <section id="p3">
+        <h3>4 - ¿Quién fue el fundador de Tandil?</h3>
+        <label>
+            <input type="radio" value="1"  name="p3" onclick="respuesta(3,this)"> Ramón Santamarina      
+        </label>
+        <label>
+            <input type="radio" value="2"  name="p3" onclick="respuesta(3,this)"> Martín Rodríguez     
+        </label>
+        <label>
+            <input type="radio" value="3"  name="p3" onclick="respuesta(3,this)"> Juan Fulg 
+        </label>
+     </section>
+        
+     <section id="p4">
+        <h3>5 - ¿Cómo se llama la piedra que se cayó en el año 1912?</h3>
+        <label>
+            <input type="radio" value="1"  name="p4" onclick="respuesta(4,this)"> Piedra de Tandil      
+        </label>
+        <label>
+            <input type="radio" value="2"  name="p4" onclick="respuesta(4,this)"> Centinela  
+        </label>
+        <label>
+            <input type="radio" value="3"  name="p4" onclick="respuesta(4,this)"> Movediza
+        </label>
+      </section>
+      
+      <button onclick="corregir()">CORREGIR</button>
+      <h2>RESPUESTAS ACERTADAS: <span id="resultado"></span></h2>
+   </div>  
+   <script src="script.js"></script>
+</body>
+</html>
