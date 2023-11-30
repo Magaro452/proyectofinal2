@@ -1,4 +1,4 @@
-let correctas = [3,2,2,2,3];
+let correctas = [3,2,2,2,3,1,3,2,3,1];
 
 let opcion_elegida= [];
 let cantidad_correctas=0;
